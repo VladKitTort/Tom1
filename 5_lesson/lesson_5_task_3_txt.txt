@@ -1,0 +1,9 @@
+Ivanov 10000
+Petrov 12000
+Simonov  20000
+Kovin 50000
+Riflektin 70000
+Polomin 80000
+Lifanov 35000
+Ilin 20000
+Doping 7000

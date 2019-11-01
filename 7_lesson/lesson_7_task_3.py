@@ -19,14 +19,16 @@ class Cell:
         return f'{self.cells}'
 
     def make_order(self, cell):
-        self.cell = cell
-        print(int((('*' * self.cell) + '\n') * (self.cells // self.cell)
-                  + ((self.cells % self.cell) + '\n')))
+        n = ''
+        for i in range(int((self.cells / cell // 1))):
+            n += f'{"*" * cell}\\n'
+        n += f'{"*" * (self.cells % cell)}'
+        return n
 
 
-square_1 = Cell(20)
+square_1 = Cell(43)
 square_2 = Cell(15)
-square_1.make_order(5)
+print(square_1.make_order(5))
 print(f'Сумма клеток- {square_1 + square_2}')
 print(f'Разность кеток- {square_1 - square_2}')
 print(f'Перемножение клеток- {square_1 * square_2}')

@@ -1,0 +1,4 @@
+mathematics 12 2 3
+geography 12 2 2
+physics 45 8 2
+chemistry 4 5 9
